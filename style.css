@@ -1,0 +1,139 @@
+body{
+    font-family:courier;
+    color: white;
+    display: flex;
+    justify-content: center;
+   
+  }
+ 
+  main{
+    
+    background-size: cover;
+    background-image: url("https://cdn-images-1.medium.com/max/1600/0*I-sI3u34g0ydRqyA");
+    width:25vw;
+    height:90vh;
+    /*margin:2vh 2vw;*/
+    /*background:rgb(154, 223, 197);*/
+    border:1px dashed black;
+    padding: 2vh 2vw;
+  }
+  header{
+      margin-top: 0;
+      padding: 0;
+    font-size:18px;
+  }
+  
+  footer{
+    padding: 18px;
+    text-align: center;
+  }
+
+  .rocket{
+     
+ margin-left: 20%;
+   
+    align-items: center;
+  }
+  h3{
+     margin-bottom: 0%;
+  }
+ p {
+ margin-top: 2%;
+ }
+  
+  /*let's flex*/
+  
+  main{
+    display:flex;
+    flex-direction:column;  
+    justify-content:space-between;
+    
+  }
+  div{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+  }
+  .span{
+    flex-direction:column;  
+    text-align: center;   
+    justify-content: center;
+    padding: 0; margin: 0;
+
+  }
+  header{
+    align-items: center;
+    display:flex;
+    justify-content:space-between;
+  }
+
+  footer{
+    align-items: center;
+    display:flex;
+    justify-content:space-between;
+  }
+  section{
+      margin: 0%;
+      padding: 2%;
+
+      display: flex;
+      flex-direction: row;
+  }
+  .p{
+      margin-top: 0px;
+      font-size: 13px;
+  }
+  .h3{
+      font-size: 15px;
+margin-top: 10px;;
+  }
+  .kolo{
+      
+      margin-left: auto;
+      margin-top: 10px;
+    
+  }
+.article{
+    margin-left: 10px;
+}
+.time {
+    padding: 0 35%;
+    margin: 0 15px;
+    border-radius: 1%;
+    height: 2px;
+    background-color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+@media screen and (max-width: 900px) {
+  body {
+
+   flex-direction: column;
+  }
+ main{
+   width: 90%;
+ }
+ .rocket{
+   margin: auto;
+ }
+ .timeline{
+   justify-content: center;
+ }
+}
+@media screen and (max-width: 500px) {
+  body {
+
+    flex-direction: column;
+   }
+  main{
+    width: 80%;
+  }
+  .rocket{
+    margin: auto;
+  }
+  .timeline{
+    justify-content: center;
+  }
+ }
